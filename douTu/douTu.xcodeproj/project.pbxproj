@@ -22,6 +22,24 @@
 		E951B6D71DF0270E0011B9BB /* GBNQQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E951B6C21DF0270E0011B9BB /* GBNQQViewController.m */; };
 		E951B6D81DF0270E0011B9BB /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E951B6C41DF0270E0011B9BB /* MyViewController.m */; };
 		E951B6D91DF0270E0011B9BB /* SquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E951B6CA1DF0270E0011B9BB /* SquareViewController.m */; };
+		ED991B571DF0412100A77522 /* zjfHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991B4E1DF0412100A77522 /* zjfHotViewController.m */; };
+		ED991B581DF0412100A77522 /* zjfMakeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991B501DF0412100A77522 /* zjfMakeDetailViewController.m */; };
+		ED991B591DF0412100A77522 /* zjfNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991B521DF0412100A77522 /* zjfNewViewController.m */; };
+		ED991B5A1DF0412100A77522 /* zjfPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991B541DF0412100A77522 /* zjfPersonViewController.m */; };
+		ED991B5B1DF0412100A77522 /* zjfSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991B561DF0412100A77522 /* zjfSortViewController.m */; };
+		ED991E4E1DF0419900A77522 /* MakeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991B5E1DF0419900A77522 /* MakeCollectionViewCell.m */; };
+		ED991E4F1DF0419900A77522 /* MakeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED991B5F1DF0419900A77522 /* MakeCollectionViewCell.xib */; };
+		ED991FC11DF0419A00A77522 /* zjfHotCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991E431DF0419900A77522 /* zjfHotCollectionViewCell.m */; };
+		ED991FC21DF0419A00A77522 /* zjfHotCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED991E441DF0419900A77522 /* zjfHotCollectionViewCell.xib */; };
+		ED991FC31DF0419A00A77522 /* zjfNewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991E461DF0419900A77522 /* zjfNewCollectionViewCell.m */; };
+		ED991FC41DF0419A00A77522 /* zjfNewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED991E471DF0419900A77522 /* zjfNewCollectionViewCell.xib */; };
+		ED991FC51DF0419A00A77522 /* zjfPersonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991E491DF0419900A77522 /* zjfPersonCollectionViewCell.m */; };
+		ED991FC61DF0419A00A77522 /* zjfPersonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED991E4A1DF0419900A77522 /* zjfPersonCollectionViewCell.xib */; };
+		ED991FC71DF0419A00A77522 /* zjfSortCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991E4C1DF0419900A77522 /* zjfSortCollectionViewCell.m */; };
+		ED991FC81DF0419A00A77522 /* zjfSortCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED991E4D1DF0419900A77522 /* zjfSortCollectionViewCell.xib */; };
+		ED991FCC1DF041F900A77522 /* makeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED991FCB1DF041F900A77522 /* makeModel.m */; };
+		ED991FD11DF0434400A77522 /* gongjubg@2x1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED991FCF1DF0434400A77522 /* gongjubg@2x1.png */; };
+		ED991FD21DF0434400A77522 /* tuijian.png in Resources */ = {isa = PBXBuildFile; fileRef = ED991FD01DF0434400A77522 /* tuijian.png */; };
 		EDCD67C01DF0082900409001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCD67BF1DF0082900409001 /* main.m */; };
 		EDCD67C91DF0082900409001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCD67C71DF0082900409001 /* Main.storyboard */; };
 		EDCD67CB1DF0082900409001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCD67CA1DF0082900409001 /* Assets.xcassets */; };
@@ -79,6 +97,36 @@
 		E951B6C41DF0270E0011B9BB /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		E951B6C91DF0270E0011B9BB /* SquareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareViewController.h; sourceTree = "<group>"; };
 		E951B6CA1DF0270E0011B9BB /* SquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareViewController.m; sourceTree = "<group>"; };
+		ED991B4D1DF0412100A77522 /* zjfHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zjfHotViewController.h; sourceTree = "<group>"; };
+		ED991B4E1DF0412100A77522 /* zjfHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zjfHotViewController.m; sourceTree = "<group>"; };
+		ED991B4F1DF0412100A77522 /* zjfMakeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zjfMakeDetailViewController.h; sourceTree = "<group>"; };
+		ED991B501DF0412100A77522 /* zjfMakeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zjfMakeDetailViewController.m; sourceTree = "<group>"; };
+		ED991B511DF0412100A77522 /* zjfNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zjfNewViewController.h; sourceTree = "<group>"; };
+		ED991B521DF0412100A77522 /* zjfNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zjfNewViewController.m; sourceTree = "<group>"; };
+		ED991B531DF0412100A77522 /* zjfPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zjfPersonViewController.h; sourceTree = "<group>"; };
+		ED991B541DF0412100A77522 /* zjfPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zjfPersonViewController.m; sourceTree = "<group>"; };
+		ED991B551DF0412100A77522 /* zjfSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zjfSortViewController.h; sourceTree = "<group>"; };
+		ED991B561DF0412100A77522 /* zjfSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zjfSortViewController.m; sourceTree = "<group>"; };
+		ED991B5D1DF0419900A77522 /* MakeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeCollectionViewCell.h; sourceTree = "<group>"; };
+		ED991B5E1DF0419900A77522 /* MakeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeCollectionViewCell.m; sourceTree = "<group>"; };
+		ED991B5F1DF0419900A77522 /* MakeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MakeCollectionViewCell.xib; sourceTree = "<group>"; };
+		ED991E421DF0419900A77522 /* zjfHotCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zjfHotCollectionViewCell.h; sourceTree = "<group>"; };
+		ED991E431DF0419900A77522 /* zjfHotCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zjfHotCollectionViewCell.m; sourceTree = "<group>"; };
+		ED991E441DF0419900A77522 /* zjfHotCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = zjfHotCollectionViewCell.xib; sourceTree = "<group>"; };
+		ED991E451DF0419900A77522 /* zjfNewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zjfNewCollectionViewCell.h; sourceTree = "<group>"; };
+		ED991E461DF0419900A77522 /* zjfNewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zjfNewCollectionViewCell.m; sourceTree = "<group>"; };
+		ED991E471DF0419900A77522 /* zjfNewCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = zjfNewCollectionViewCell.xib; sourceTree = "<group>"; };
+		ED991E481DF0419900A77522 /* zjfPersonCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zjfPersonCollectionViewCell.h; sourceTree = "<group>"; };
+		ED991E491DF0419900A77522 /* zjfPersonCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zjfPersonCollectionViewCell.m; sourceTree = "<group>"; };
+		ED991E4A1DF0419900A77522 /* zjfPersonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = zjfPersonCollectionViewCell.xib; sourceTree = "<group>"; };
+		ED991E4B1DF0419900A77522 /* zjfSortCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zjfSortCollectionViewCell.h; sourceTree = "<group>"; };
+		ED991E4C1DF0419900A77522 /* zjfSortCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zjfSortCollectionViewCell.m; sourceTree = "<group>"; };
+		ED991E4D1DF0419900A77522 /* zjfSortCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = zjfSortCollectionViewCell.xib; sourceTree = "<group>"; };
+		ED991FCA1DF041F900A77522 /* makeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = makeModel.h; sourceTree = "<group>"; };
+		ED991FCB1DF041F900A77522 /* makeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = makeModel.m; sourceTree = "<group>"; };
+		ED991FCE1DF0427B00A77522 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ED991FCF1DF0434400A77522 /* gongjubg@2x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gongjubg@2x1.png"; sourceTree = "<group>"; };
+		ED991FD01DF0434400A77522 /* tuijian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tuijian.png; sourceTree = "<group>"; };
 		EDCD67BB1DF0082900409001 /* douTu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = douTu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCD67BF1DF0082900409001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDCD67C81DF0082900409001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -133,13 +181,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E951B6A41DF0270E0011B9BB /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
 		E951B6A51DF0270E0011B9BB /* Screen */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,25 +194,11 @@
 		E951B6A61DF0270E0011B9BB /* Make */ = {
 			isa = PBXGroup;
 			children = (
-				E951B6A71DF0270E0011B9BB /* Model */,
-				E951B6A81DF0270E0011B9BB /* View */,
+				ED991FC91DF041F900A77522 /* Model */,
+				ED991B5C1DF0419900A77522 /* View */,
 				E951B6A91DF0270E0011B9BB /* ViewController */,
 			);
 			path = Make;
-			sourceTree = "<group>";
-		};
-		E951B6A71DF0270E0011B9BB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E951B6A81DF0270E0011B9BB /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		E951B6A91DF0270E0011B9BB /* ViewController */ = {
@@ -179,6 +206,16 @@
 			children = (
 				E951B6AA1DF0270E0011B9BB /* MakeViewController.h */,
 				E951B6AB1DF0270E0011B9BB /* MakeViewController.m */,
+				ED991B4D1DF0412100A77522 /* zjfHotViewController.h */,
+				ED991B4E1DF0412100A77522 /* zjfHotViewController.m */,
+				ED991B4F1DF0412100A77522 /* zjfMakeDetailViewController.h */,
+				ED991B501DF0412100A77522 /* zjfMakeDetailViewController.m */,
+				ED991B511DF0412100A77522 /* zjfNewViewController.h */,
+				ED991B521DF0412100A77522 /* zjfNewViewController.m */,
+				ED991B531DF0412100A77522 /* zjfPersonViewController.h */,
+				ED991B541DF0412100A77522 /* zjfPersonViewController.m */,
+				ED991B551DF0412100A77522 /* zjfSortViewController.h */,
+				ED991B561DF0412100A77522 /* zjfSortViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -268,18 +305,47 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		E951B6CB1DF0270E0011B9BB /* SDK */ = {
+		ED991B5C1DF0419900A77522 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ED991B5D1DF0419900A77522 /* MakeCollectionViewCell.h */,
+				ED991B5E1DF0419900A77522 /* MakeCollectionViewCell.m */,
+				ED991B5F1DF0419900A77522 /* MakeCollectionViewCell.xib */,
+				ED991E421DF0419900A77522 /* zjfHotCollectionViewCell.h */,
+				ED991E431DF0419900A77522 /* zjfHotCollectionViewCell.m */,
+				ED991E441DF0419900A77522 /* zjfHotCollectionViewCell.xib */,
+				ED991E451DF0419900A77522 /* zjfNewCollectionViewCell.h */,
+				ED991E461DF0419900A77522 /* zjfNewCollectionViewCell.m */,
+				ED991E471DF0419900A77522 /* zjfNewCollectionViewCell.xib */,
+				ED991E481DF0419900A77522 /* zjfPersonCollectionViewCell.h */,
+				ED991E491DF0419900A77522 /* zjfPersonCollectionViewCell.m */,
+				ED991E4A1DF0419900A77522 /* zjfPersonCollectionViewCell.xib */,
+				ED991E4B1DF0419900A77522 /* zjfSortCollectionViewCell.h */,
+				ED991E4C1DF0419900A77522 /* zjfSortCollectionViewCell.m */,
+				ED991E4D1DF0419900A77522 /* zjfSortCollectionViewCell.xib */,
 			);
-			path = SDK;
+			name = View;
+			path = douTu/Classes/Screen/Make/View;
+			sourceTree = SOURCE_ROOT;
+		};
+		ED991FC91DF041F900A77522 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED991FCA1DF041F900A77522 /* makeModel.h */,
+				ED991FCB1DF041F900A77522 /* makeModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
-		E951B6CC1DF0270E0011B9BB /* Tool */ = {
+		ED991FCD1DF0424E00A77522 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				ED991FCF1DF0434400A77522 /* gongjubg@2x1.png */,
+				ED991FD01DF0434400A77522 /* tuijian.png */,
+				ED991FCE1DF0427B00A77522 /* PrefixHeader.pch */,
 			);
-			path = Tool;
+			name = SDK;
+			path = Classes/Screen/SDK;
 			sourceTree = "<group>";
 		};
 		EDCD67B21DF0082900409001 = {
@@ -309,6 +375,7 @@
 			children = (
 				EDCD67F11DF008FB00409001 /* Classes */,
 				EDCD67C71DF0082900409001 /* Main.storyboard */,
+				ED991FCD1DF0424E00A77522 /* SDK */,
 				EDCD67CA1DF0082900409001 /* Assets.xcassets */,
 				EDCD67CC1DF0082900409001 /* LaunchScreen.storyboard */,
 				EDCD67CF1DF0082900409001 /* Info.plist */,
@@ -352,10 +419,7 @@
 				EDCD68051DF008FB00409001 /* ViewController.m */,
 				E951B66B1DF0164F0011B9BB /* TabBarViewController.h */,
 				E951B66C1DF0164F0011B9BB /* TabBarViewController.m */,
-				E951B6A41DF0270E0011B9BB /* Other */,
 				E951B6A51DF0270E0011B9BB /* Screen */,
-				E951B6CB1DF0270E0011B9BB /* SDK */,
-				E951B6CC1DF0270E0011B9BB /* Tool */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -478,9 +542,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDCD67CE1DF0082900409001 /* LaunchScreen.storyboard in Resources */,
+				ED991FD11DF0434400A77522 /* gongjubg@2x1.png in Resources */,
 				EDCD67CB1DF0082900409001 /* Assets.xcassets in Resources */,
+				ED991FC41DF0419A00A77522 /* zjfNewCollectionViewCell.xib in Resources */,
 				EDCD67C91DF0082900409001 /* Main.storyboard in Resources */,
+				ED991FD21DF0434400A77522 /* tuijian.png in Resources */,
 				E951B6CF1DF0270E0011B9BB /* GBNTableViewCell.xib in Resources */,
+				ED991FC61DF0419A00A77522 /* zjfPersonCollectionViewCell.xib in Resources */,
+				ED991FC21DF0419A00A77522 /* zjfHotCollectionViewCell.xib in Resources */,
+				ED991E4F1DF0419900A77522 /* MakeCollectionViewCell.xib in Resources */,
+				ED991FC81DF0419A00A77522 /* zjfSortCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,19 +626,30 @@
 			files = (
 				E951B66D1DF0164F0011B9BB /* TabBarViewController.m in Sources */,
 				E951B6D91DF0270E0011B9BB /* SquareViewController.m in Sources */,
+				ED991FC71DF0419A00A77522 /* zjfSortCollectionViewCell.m in Sources */,
+				ED991B581DF0412100A77522 /* zjfMakeDetailViewController.m in Sources */,
+				ED991FC51DF0419A00A77522 /* zjfPersonCollectionViewCell.m in Sources */,
 				E951B6D21DF0270E0011B9BB /* GBNGameViewController.m in Sources */,
+				ED991B5A1DF0412100A77522 /* zjfPersonViewController.m in Sources */,
 				E951B6D11DF0270E0011B9BB /* GBNFeedbackViewController.m in Sources */,
 				E951B6D61DF0270E0011B9BB /* GBNMySendViewController.m in Sources */,
 				E951B6D71DF0270E0011B9BB /* GBNQQViewController.m in Sources */,
 				EDCD68071DF008FB00409001 /* ViewController.m in Sources */,
 				E951B6CD1DF0270E0011B9BB /* MakeViewController.m in Sources */,
 				E951B6D41DF0270E0011B9BB /* GBNMyFavoriteViewController.m in Sources */,
+				ED991B571DF0412100A77522 /* zjfHotViewController.m in Sources */,
 				E951B6D51DF0270E0011B9BB /* GBNMyMakeViewController.m in Sources */,
 				E951B6D81DF0270E0011B9BB /* MyViewController.m in Sources */,
 				EDCD68061DF008FB00409001 /* AppDelegate.m in Sources */,
 				EDCD67C01DF0082900409001 /* main.m in Sources */,
+				ED991B5B1DF0412100A77522 /* zjfSortViewController.m in Sources */,
+				ED991B591DF0412100A77522 /* zjfNewViewController.m in Sources */,
 				E951B6D31DF0270E0011B9BB /* GBNHelpViewController.m in Sources */,
 				E951B6D01DF0270E0011B9BB /* GBNDisclaimerViewController.m in Sources */,
+				ED991FC11DF0419A00A77522 /* zjfHotCollectionViewCell.m in Sources */,
+				ED991FC31DF0419A00A77522 /* zjfNewCollectionViewCell.m in Sources */,
+				ED991E4E1DF0419900A77522 /* MakeCollectionViewCell.m in Sources */,
+				ED991FCC1DF041F900A77522 /* makeModel.m in Sources */,
 				E951B6CE1DF0270E0011B9BB /* GBNTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -718,6 +800,8 @@
 			baseConfigurationReference = FE5C07DD7D63A2846130C82C /* Pods-douTu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wyzc04/Desktop/未命名文件夹/douTu/douTu/Classes/Screen/SDK/PrefixHeader.pch";
 				INFOPLIST_FILE = douTu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyzc04.www.douTu;
@@ -730,6 +814,8 @@
 			baseConfigurationReference = 33C99307FFD76CD9DE69FEA7 /* Pods-douTu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wyzc04/Desktop/未命名文件夹/douTu/douTu/Classes/Screen/SDK/PrefixHeader.pch";
 				INFOPLIST_FILE = douTu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyzc04.www.douTu;

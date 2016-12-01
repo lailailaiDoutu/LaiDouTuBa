@@ -19,7 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self childView];
-    //appdelegate我还没做了修改
     
     // Do any additional setup after loading the view.
 }
@@ -27,7 +26,7 @@
 {
     SquareViewController * square = [[SquareViewController alloc]init];
     
-    square.navigationItem.title = @"广场";
+    square.navigationItem.title = @"大家都在发";
     
     [self addchildVC:square image:[UIImage imageNamed:@"guangchang"]selectImage:[UIImage imageNamed:@"guangchanglv"] edg:UIEdgeInsetsMake(5, 0, -5, 0)];
     
@@ -49,7 +48,7 @@
     my.navigationItem.title = @"我的";
     
     [self addchildVC:my image:[UIImage imageNamed:@"wode"]selectImage:[UIImage imageNamed:@"wodelv"] edg:UIEdgeInsetsMake(5, 0, -5, 0)];
-    self.tabBar.tintColor = [UIColor greenColor];
+    self.tabBar.tintColor = [UIColor colorWithRed:0 green:204/256.0 blue:23/256.0 alpha:1];
 }
 - (void)addchildVC:(UIViewController *)childVC image:(UIImage *)image selectImage:(UIImage *)selectImage edg:(UIEdgeInsets)edg{
     
