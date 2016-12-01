@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self childView];
+    //appdelegate我还没做了修改
     
     // Do any additional setup after loading the view.
 }
