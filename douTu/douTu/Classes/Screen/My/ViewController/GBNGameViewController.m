@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor colorWithWhite:1 alpha:0.9];
+    self.navigationItem.title = @"游戏大厅";
+    
     // Do any additional setup after loading the view.
 }
 

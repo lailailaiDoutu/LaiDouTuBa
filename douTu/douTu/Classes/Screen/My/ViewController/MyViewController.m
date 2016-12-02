@@ -24,7 +24,7 @@
 @property (nonatomic,strong)NSArray * twoTextArray;
 @property (nonatomic,strong)NSArray * threeImageArray;
 @property (nonatomic,strong)NSArray * threeTextArray;
-
+@property (nonatomic,strong)NSString * imageViewCacheSize;
 @end
 
 @implementation MyViewController
@@ -55,6 +55,20 @@
     
     // Do any additional setup after loading the view.
 }
+- (void)getImageCache{
+    
+    SDImageCache *cache = [SDImageCache sharedImageCache];
+    float temp = [cache getSize];
+    if (temp >= 1024) {
+        
+        _imageViewCacheSize = [NSString stringWithFormat:@"%.2fM",temp/1024/1024];
+    }else{
+        
+        _imageViewCacheSize = [NSString stringWithFormat:@"%.2fKB",temp/1024];
+    }
+}
+
+
 - (void)setupArray{
     _oneImageArray = @[@"fasongde",@"zhizuode",@"shoucangde",@"game"];
     _oneTextArray = @[@"我发送的",@"我制作的",@"我收藏的",@"游戏大厅"];
@@ -108,7 +122,11 @@
         cell.label.text = _twoTextArray[indexPath.row];
         if ([cell.label.text isEqualToString:@"清除缓存"]) {
             cell.twoLabel.hidden = NO;
-            cell.twoLabel.text = @"100";
+            if (_imageViewCacheSize == nil) {
+                cell.twoLabel.text = @"0.00";
+            }else{
+            cell.twoLabel.text = _imageViewCacheSize;
+            }
         }
     }else{
         cell.headerImage.image = [UIImage imageNamed:_threeImageArray[indexPath.row]];
@@ -127,7 +145,7 @@
         }else if (indexPath.row == 2){
             [self.navigationController pushViewController:[[GBNMyFavoriteViewController alloc]init] animated:YES];
         }else{
-            [self.navigationController pushViewController:[[GBNGameViewController alloc]init] animated:YES];
+            [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"https://itunes.apple.com/cn/app/qq-you-xi/id443908613?mt=8"] options:@{} completionHandler:nil];
         }
     }else if (indexPath.section == 1){
         if (indexPath.row == 0) {
@@ -156,7 +174,16 @@
             }];
             
             UIAlertAction * action1 = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-                
+                GBNTableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+                cell.twoLabel.text = @"0.00";
+                SDImageCache *cache = [SDImageCache sharedImageCache];
+                [cache clearDisk];
+                UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"✅" message:@"清除缓存成功" preferredStyle:UIAlertControllerStyleAlert];
+                [self  showDetailViewController:alert1 sender:nil];
+                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                    
+                    [alert1 dismissViewControllerAnimated:YES completion:nil];
+                });
             }];
             [alert addAction:action];
             [alert addAction:action1];
@@ -168,10 +195,11 @@
     }else{
         if (indexPath.row == 0) {
             //跳转到AppStore下载爆笑姐夫
-            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms://itunes.apple.com/cn/app/bao-xiao-jie-fu-zui-gao-xiao/id996788058?mt=8"]];
+            [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"itms://itunes.apple.com/cn/app/bao-xiao-jie-fu-zui-gao-xiao/id996788058?mt=8"] options:@{} completionHandler:nil];
+            
         }else{
             //跳转到AppStore下载GIF
-            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms://itunes.apple.com/cn/app/gif-biao-qing-fen-xiang-dong/id1052974859?mt=8"]];
+            [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"itms://itunes.apple.com/cn/app/gif-biao-qing-fen-xiang-dong/id1052974859?mt=8"] options:@{} completionHandler:nil];
         }
     }
 }

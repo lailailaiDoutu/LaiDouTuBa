@@ -801,7 +801,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/wyzc04/Desktop/未命名文件夹/douTu/douTu/Classes/Screen/SDK/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = /Users/wyzc02/Desktop/gitup/douTu/douTu/Classes/Screen/SDK/PrefixHeader.pch;
 				INFOPLIST_FILE = douTu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyzc04.www.douTu;
@@ -815,7 +815,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/wyzc04/Desktop/未命名文件夹/douTu/douTu/Classes/Screen/SDK/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = /Users/wyzc02/Desktop/gitup/douTu/douTu/Classes/Screen/SDK/PrefixHeader.pch;
 				INFOPLIST_FILE = douTu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyzc04.www.douTu;
