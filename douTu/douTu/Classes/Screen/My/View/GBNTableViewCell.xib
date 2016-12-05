@@ -20,7 +20,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="65s-eD-hcL">
-                        <rect key="frame" x="15" y="18" width="30" height="112.5"/>
+                        <rect key="frame" x="15" y="13" width="30" height="122.5"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="30" id="f1E-WQ-cTs"/>
                         </constraints>
@@ -50,7 +50,7 @@
                     <constraint firstAttribute="trailing" secondItem="BEk-fT-OVc" secondAttribute="trailing" constant="10" id="GCb-nL-Ml1"/>
                     <constraint firstItem="6sr-pq-6P0" firstAttribute="leading" secondItem="65s-eD-hcL" secondAttribute="trailing" constant="15" id="JFS-zf-ZrW"/>
                     <constraint firstItem="BEk-fT-OVc" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="LBY-my-b2I"/>
-                    <constraint firstItem="65s-eD-hcL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="WW9-ku-HpR"/>
+                    <constraint firstItem="65s-eD-hcL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="WW9-ku-HpR"/>
                     <constraint firstItem="rh7-JP-f3C" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="bJj-hk-TdH"/>
                     <constraint firstAttribute="trailing" secondItem="rh7-JP-f3C" secondAttribute="trailing" constant="10" id="bbA-VA-iVG"/>
                     <constraint firstItem="65s-eD-hcL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="kfm-dW-Lco"/>

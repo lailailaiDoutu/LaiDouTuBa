@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TabBarViewController.h"
+#import <UMSocialCore/UMSocialCore.h>
 @interface AppDelegate ()
 
 @end
@@ -23,8 +24,37 @@
     
     [self.window makeKeyAndVisible];
     
+    //打开调试日志
+    [[UMSocialManager defaultManager] openLog:YES];
+    
+    //设置友盟appkey
+    [[UMSocialManager defaultManager] setUmSocialAppkey:@"583e20aaf29d987b460006ba"];
+    
+    // 获取友盟social版本号
+    //NSLog(@"UMeng social version: %@", [UMSocialGlobal umSocialSDKVersion]);
+    
+    //设置微信的appKey和appSecret
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:@"wx00d15a9c497846eb" appSecret:@"29a155d63fc95630719c3566db3e1a7d" redirectURL:nil];
+    
+    
+    //设置分享到QQ互联的appKey和appSecret
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ appKey:@"1105725455"  appSecret:nil redirectURL:nil];
+
+    
+    
     // Override point for customization after application launch.
     return YES;
+}
+// 支持所有iOS系统
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    BOOL result = [[UMSocialManager defaultManager] handleOpenURL:url];
+    if (!result) {
+        // 其他如支付等SDK的回调
+    }else{
+        NSLog(@"回调成功");
+    }
+    return result;
 }
 
 

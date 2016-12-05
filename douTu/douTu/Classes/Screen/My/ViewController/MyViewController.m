@@ -17,6 +17,8 @@
 #import "GBNFeedbackViewController.h"
 #import "GBNDisclaimerViewController.h"
 #import "GBNTableViewCell.h"
+#import "ActionSheetView.h"
+#import <UShareUI/UMSocialUIManager.h>
 @interface MyViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)NSArray * oneImageArray;
 @property (nonatomic,strong)NSArray * oneTextArray;
@@ -189,8 +191,46 @@
             [alert addAction:action1];
             [self showDetailViewController:alert sender:nil];
         }else{
-            //推荐APP是个提示框
+//            //推荐APP是个提示框
+//            NSArray *titlearr = @[@"发到微信",@"发到QQ",@"复制下载链接"];
+//            NSArray *imageArr = @[@"wechat",@"qqshare",@"mark"];
+//            
+//            ActionSheetView *actionsheet = [[ActionSheetView alloc] initWithShareHeadOprationWith:titlearr andImageArry:imageArr andProTitle:@"测试" and:ShowTypeIsShareStyle];
+//            [actionsheet setBtnClick:^(NSInteger btnTag) {
+//                NSLog(@"\n点击第几个====%ld\n当前选中的按钮title====%@",btnTag,titlearr[btnTag]);
+//                if (btnTag == 0) {
+//                    
+//                }else if (btnTag == 1){
+//                    NSLog(@"1");
+//                }else{
+//                    NSLog(@"2");
+//                }
+//            }];
+//            [[UIApplication sharedApplication].keyWindow addSubview:actionsheet];
+            
+            __weak typeof(self) weakSelf = self;
+            //显示分享面板
+            [UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:^(UMSocialPlatformType platformType, NSDictionary *userInfo) {
+                [weakSelf shareTextToPlatformType:platformType];
+            }];
+            
         }
+        //复制功能
+//        UIPasteboard *pab = [UIPasteboard generalPasteboard];
+//        
+//        NSString *string = @"测试";
+//        
+//        [pab setString:string];
+//        
+//        if (pab == nil) {
+//            [MBProgressHUD showError:@"复制失败"];
+//            
+//        }else
+//        {
+//            [MBProgressHUD showSuccess:@"已复制"];
+//        }
+
+        
         
     }else{
         if (indexPath.row == 0) {
@@ -202,6 +242,25 @@
             [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"itms://itunes.apple.com/cn/app/gif-biao-qing-fen-xiang-dong/id1052974859?mt=8"] options:@{} completionHandler:nil];
         }
     }
+}
+- (void)shareTextToPlatformType:(UMSocialPlatformType)platformType
+{
+    //创建分享消息对象
+    UMSocialMessageObject *messageObject = [UMSocialMessageObject messageObject];
+    //设置文本
+    
+    UMShareExtendObject * APPUrl = [[UMShareExtendObject alloc]init];
+    APPUrl.url = @"https://itunes.apple.com/cn/app/dou-tu-qing-song-zhi-zuogif/id1091452104?mt=8";
+    
+    messageObject.shareObject = APPUrl;
+    //调用分享接口
+    [[UMSocialManager defaultManager] shareToPlatform:platformType messageObject:messageObject currentViewController:self completion:^(id data, NSError *error) {
+        if (error) {
+            NSLog(@"************Share fail with error %@*********",error);
+        }else{
+            NSLog(@"response data is %@",data);
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3A2D41B5708A15A894686FD4 /* libPods-douTu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C4E784B5F24276983A7559 /* libPods-douTu.a */; };
+		E949C2171DF1798100EDBAB2 /* ActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E949C2121DF1798100EDBAB2 /* ActionButton.m */; };
+		E949C2181DF1798100EDBAB2 /* ActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = E949C2141DF1798100EDBAB2 /* ActionSheetView.m */; };
+		E949C2191DF1798100EDBAB2 /* VerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E949C2161DF1798100EDBAB2 /* VerButton.m */; };
 		E951B66D1DF0164F0011B9BB /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E951B66C1DF0164F0011B9BB /* TabBarViewController.m */; };
 		E951B6CD1DF0270E0011B9BB /* MakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E951B6AB1DF0270E0011B9BB /* MakeViewController.m */; };
 		E951B6CE1DF0270E0011B9BB /* GBNTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E951B6B01DF0270E0011B9BB /* GBNTableViewCell.m */; };
@@ -70,6 +73,12 @@
 /* Begin PBXFileReference section */
 		03C4E784B5F24276983A7559 /* libPods-douTu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-douTu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C99307FFD76CD9DE69FEA7 /* Pods-douTu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douTu.release.xcconfig"; path = "Pods/Target Support Files/Pods-douTu/Pods-douTu.release.xcconfig"; sourceTree = "<group>"; };
+		E949C2111DF1798100EDBAB2 /* ActionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionButton.h; sourceTree = "<group>"; };
+		E949C2121DF1798100EDBAB2 /* ActionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionButton.m; sourceTree = "<group>"; };
+		E949C2131DF1798100EDBAB2 /* ActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetView.h; sourceTree = "<group>"; };
+		E949C2141DF1798100EDBAB2 /* ActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetView.m; sourceTree = "<group>"; };
+		E949C2151DF1798100EDBAB2 /* VerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerButton.h; sourceTree = "<group>"; };
+		E949C2161DF1798100EDBAB2 /* VerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerButton.m; sourceTree = "<group>"; };
 		E951B66B1DF0164F0011B9BB /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		E951B66C1DF0164F0011B9BB /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		E951B6AA1DF0270E0011B9BB /* MakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeViewController.h; sourceTree = "<group>"; };
@@ -240,6 +249,12 @@
 		E951B6AE1DF0270E0011B9BB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E949C2111DF1798100EDBAB2 /* ActionButton.h */,
+				E949C2121DF1798100EDBAB2 /* ActionButton.m */,
+				E949C2131DF1798100EDBAB2 /* ActionSheetView.h */,
+				E949C2141DF1798100EDBAB2 /* ActionSheetView.m */,
+				E949C2151DF1798100EDBAB2 /* VerButton.h */,
+				E949C2161DF1798100EDBAB2 /* VerButton.m */,
 				E951B6AF1DF0270E0011B9BB /* GBNTableViewCell.h */,
 				E951B6B01DF0270E0011B9BB /* GBNTableViewCell.m */,
 				E951B6B11DF0270E0011B9BB /* GBNTableViewCell.xib */,
@@ -627,6 +642,7 @@
 				E951B66D1DF0164F0011B9BB /* TabBarViewController.m in Sources */,
 				E951B6D91DF0270E0011B9BB /* SquareViewController.m in Sources */,
 				ED991FC71DF0419A00A77522 /* zjfSortCollectionViewCell.m in Sources */,
+				E949C2171DF1798100EDBAB2 /* ActionButton.m in Sources */,
 				ED991B581DF0412100A77522 /* zjfMakeDetailViewController.m in Sources */,
 				ED991FC51DF0419A00A77522 /* zjfPersonCollectionViewCell.m in Sources */,
 				E951B6D21DF0270E0011B9BB /* GBNGameViewController.m in Sources */,
@@ -647,10 +663,12 @@
 				E951B6D31DF0270E0011B9BB /* GBNHelpViewController.m in Sources */,
 				E951B6D01DF0270E0011B9BB /* GBNDisclaimerViewController.m in Sources */,
 				ED991FC11DF0419A00A77522 /* zjfHotCollectionViewCell.m in Sources */,
+				E949C2181DF1798100EDBAB2 /* ActionSheetView.m in Sources */,
 				ED991FC31DF0419A00A77522 /* zjfNewCollectionViewCell.m in Sources */,
 				ED991E4E1DF0419900A77522 /* MakeCollectionViewCell.m in Sources */,
 				ED991FCC1DF041F900A77522 /* makeModel.m in Sources */,
 				E951B6CE1DF0270E0011B9BB /* GBNTableViewCell.m in Sources */,
+				E949C2191DF1798100EDBAB2 /* VerButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
