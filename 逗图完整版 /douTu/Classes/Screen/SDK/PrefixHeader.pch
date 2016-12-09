@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  douTu
+//
+//  Created by wyzc04 on 16/12/1.
+//  Copyright © 2016年 wyzc04. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define SCREENRECT [UIScreen mainScreen].bounds
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+
+
+// 日志输出
+#ifdef DEBUG // 开发阶段-DEBUG阶段:使用Log
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else // 发布阶段-上线阶段:移除Log
+#define NSLog(...)
+#endif
+
+// 弱引用
+#define WEAKSELF __weak typeof(self) weakSelf = self
+// 屏幕尺寸
+
+#import "FMDB.h"
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+#import "SVProgressHUD.h"
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+#import <UShareUI/UMSocialUIManager.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
